@@ -93,11 +93,15 @@
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://13.235.103.38:8081/repository/paytm-release/</url>
+	      <nexus.login>admin</nexus.login>
+	      <nexus.password>admin123</nexus.password> 
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://13.235.103.38:8081/repository/paytm-snapshot/</url>
+	      <nexus.login>admin</nexus.login>
+	      <nexus.password>admin123</nexus.password>    
 	    </snapshotRepository>
 	</distributionManagement>
 	
